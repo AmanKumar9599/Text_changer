@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Utility</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="body">
+    <div class="contain">
+        <div class="head">
+            <div class="left">
+                <h2>Text Utility</h2>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+            </div>
+            <div class="right">
+                <label class="switch">
+                    <input type="checkbox" id="sw">
+                    <span class="slider round"></span>
+                </label>                  
+                <label for="sw" id="sw" style="font-size: 120%;">Dark Mode</label>
+            </div>
+        </div>
+        <div class="body">
+            <div class="text">
+                <h1>Enter Text:</h1>
+            <textarea name="content" id="con" rows="8" cols="126" placeholder="Enter text" class="area"></textarea>
+            </div>
+            <div class="buttons">
+                <button class="upr">Convert UpperCase</button>
+                <button class="lwr">Convert LowerCase</button>
+                <button class="clr">Clear All</button>
+                <button class="espc">Remove Extra Spaces</button>
+                <button class="rspc">Remove Trailaing Spaces</button>
+            </div>
+        </div>
+        <div class="summary">
+            <h1>Text Summary</h1>
+            <p class="para">Total no. of words:0</p>
+            <p class="para1">Total no. of characters:0</p>
+        </div>
+        <!-- <div class="preview">
+            <h1>Preview</h1>
+            <div class="add">
+                <p></p>
+            </div>
+        </div> -->
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
